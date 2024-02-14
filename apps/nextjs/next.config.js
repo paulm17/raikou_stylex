@@ -21,5 +21,5 @@ const aliases = options.aliases ?? undefined;
 const useCSSLayers = options.useCSSLayers ?? undefined;
 
 module.exports = stylexPlugin({ rootDir, aliases, useCSSLayers })({
-  transpilePackages: ["@stylexjs/open-props", "@acme/badge"],
+  transpilePackages: ["@stylexjs/open-props"],
 });
